@@ -4,3 +4,11 @@ s="Hello$@ Python3&"
 s1="".join(c for c in s if c.isalpha())
 print (s1) 
 #Output:HelloPython
+
+
+rstrip doesn't change the original if you do not assign and just print
+
+text = "   12345  \t"
+stripped_text = text.strip()  # Removes trailing spaces and tabs
+print("Original string:", len(text))
+print("Stripped string:", len(stripped_text))
