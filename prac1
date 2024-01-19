@@ -1,0 +1,4 @@
+s="Hello$@ Python3&"
+s1="".join(c for c in s if c.isalpha())
+print (s1) 
+#Output:HelloPython
